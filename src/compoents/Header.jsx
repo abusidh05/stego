@@ -7,7 +7,7 @@ export default function Header({ theme, setTheme, onHome, showReset = true }){
       <div className="brand">
         <img src={logo} alt="logo" className="logo-img" />
         <div className="title">
-          <h1>Web Steg</h1>
+          <h1>Stego Vault Web</h1>
           <p>Client-side image & WAV steganography</p>
         </div>
       </div>
@@ -21,3 +21,4 @@ export default function Header({ theme, setTheme, onHome, showReset = true }){
     </div>
   )
 }
+
