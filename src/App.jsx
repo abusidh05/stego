@@ -22,7 +22,7 @@ export default function App(){
           <Header theme={theme} setTheme={setTheme} onHome={()=>{}} showReset={false}/>
           <div style={{flex:1,display:'flex',alignItems:'center',justifyContent:'center'}}>
             <div className="chooser-card card">
-              <h1 style={{margin:0}}>Web Steg</h1>
+              <h1 style={{margin:0}}>Stego Vault Web</h1>
               <p className="panel-desc" style={{marginTop:6}}>Embed or extract secret text/files — fully client-side.</p>
               <div style={{height:18}}/>
               <div style={{display:'flex',gap:12,alignItems:'center',justifyContent:'center'}}>
@@ -63,3 +63,4 @@ export default function App(){
     </div>
   )
 }
+
